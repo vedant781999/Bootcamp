@@ -18,6 +18,11 @@ def remove_punctuation(text):
     punctuationfree="".join([i for i in text if i not in string.punctuation])
     return punctuationfree
 
-
+### write documentation for every input defined
     
-    
+def tokenize_text(text):
+	"""
+	text - input text for which need to tokenize
+	output returns a list of tokens
+	"""
+	returns text.split()
